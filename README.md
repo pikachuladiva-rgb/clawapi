@@ -193,7 +193,7 @@ Each project can be configured in the admin UI with:
 
 ## Acknowledgments
 
-This project was inspired by [OpenClaw](https://github.com/openclaw/openclaw) and [NanoClaw](https://github.com/nanoclaw/nanoclaw). Special thanks to their contributors for pioneering multi-tenant AI platform architectures.
+This project was inspired by [OpenClaw](https://github.com/openclaw/openclaw) and [NanoClaw](https://github.com/qwibitai/nanoclaw). Special thanks to their contributors for pioneering multi-tenant AI platform architectures.
 
 Built with [Anthropic's Claude API](https://www.anthropic.com).
 
