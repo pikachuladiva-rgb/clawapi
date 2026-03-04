@@ -40,7 +40,7 @@ Thank you for your interest in contributing to ClawAPI! This guide will help you
 
 ## Development Setup
 
-See [Development Guide](./development.md) for detailed setup instructions.
+See [Development Guide](./docs/development.md) for detailed setup instructions.
 
 ## Coding Standards
 
