@@ -15,7 +15,7 @@ Guide for contributing to and developing ClawAPI.
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/clawapi.git
+git clone https://github.com/pikachuladiva-rgb/clawapi.git
 cd clawapi
 
 # Install dependencies
@@ -53,9 +53,18 @@ clawapi/
 │   ├── auth/             # Authentication
 │   │   ├── keys.ts       # API key generation
 │   │   └── middleware.ts # Auth middleware
+│   ├── billing/          # Rate limiting & tracking
+│   │   ├── limiter.ts    # Rate limiter
+│   │   └── tracker.ts    # Usage tracker
 │   ├── claude/           # Claude integration
-│   │   ├── pm2-manager.ts
-│   │   └── pm2-runner.ts
+│   │   ├── agent-sdk-handler.ts  # Agent SDK
+│   │   ├── api-proxy.ts          # API proxy
+│   │   ├── context.ts            # Context management
+│   │   ├── env.ts                # Environment
+│   │   ├── path-validator.ts     # Path validation
+│   │   ├── sdk-handler.ts        # SDK handler
+│   │   ├── streaming.ts          # SSE streaming
+│   │   └── system-prompt.ts      # System prompts
 │   ├── db/               # Database layer
 │   │   ├── queries/      # SQL queries
 │   │   ├── client.ts     # DB connection
@@ -64,6 +73,7 @@ clawapi/
 │   │   └── anthropic.ts  # Anthropic API
 │   ├── tools/            # Tool registry
 │   │   └── registry.ts
+│   ├── config.ts         # Configuration
 │   ├── index.ts          # Entry point
 │   ├── logger.ts         # Logging
 │   └── types.ts          # TypeScript types
