@@ -191,6 +191,12 @@ Each project can be configured in the admin UI with:
 - **Enterprise** - Centralized AI governance with rate limits
 - **Prototyping** - Rapid AI feature development with real tools
 
+## Acknowledgments
+
+This project was inspired by [OpenClaw](https://github.com/openclaw/openclaw) and [NanoClaw](https://github.com/nanoclaw/nanoclaw). Special thanks to their contributors for pioneering multi-tenant AI platform architectures.
+
+Built with [Anthropic's Claude API](https://www.anthropic.com).
+
 ## Contributing
 
 Contributions are welcome! See [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines.
