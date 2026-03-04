@@ -1,0 +1,28 @@
+node_modules/
+dist/
+data/
+
+# Environment
+.env
+*.env.local
+
+# Logs
+*.log
+logs/
+
+# Test files
+test-agent-sdk.js
+test-session.js
+test-all-endpoints.sh
+fix-*.js
+pm2-out.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
